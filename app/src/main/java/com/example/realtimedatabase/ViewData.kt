@@ -25,7 +25,7 @@ class ViewData : AppCompatActivity() {
         binding = ActivityViewDataBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        adapter = AdapterView(this)
+        adapter = AdapterView()
         binding.recView.adapter = adapter
         binding.recView.layoutManager = LinearLayoutManager(this)
 

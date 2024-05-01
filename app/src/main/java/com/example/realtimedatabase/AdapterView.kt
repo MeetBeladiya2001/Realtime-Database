@@ -7,7 +7,7 @@ import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
 import com.example.realtimedatabase.databinding.AdapterViewBinding
 
-class AdapterView(private val context: Context) : RecyclerView.Adapter<AdapterView.MyViewHolder>() {
+class AdapterView : RecyclerView.Adapter<AdapterView.MyViewHolder>() {
 
     class MyViewHolder(val binding: AdapterViewBinding) : ViewHolder(binding.root)
 
